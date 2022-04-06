@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Subtitle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/nunito_regular</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <style name="Heading">
+        <item name="android:textSize">34sp</item>
+        <item name="fontFamily">@font/nunito_regular</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <style name="Body">
+        <item name="android:textSize">14sp</item>
+        <item name="fontFamily">@font/nunito_regular</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <style name="Subtitle.Grey">
+        <item name="android:textColor">@color/grey</item>
+    </style>
+
+</resources>

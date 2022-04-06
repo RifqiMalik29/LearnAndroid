@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:layout_below="@id/btn1"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:layout_below="@id/btn2"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:layout_below="@id/btn3"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@id/struct"/>
+
+    <View
+        android:id="@+id/struct"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_below="@id/btn3"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:layout_below="@id/btn3"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@id/struct" />
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:layout_below="@id/btn4"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btn7"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:layout_below="@id/btn4"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/btn8"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"/>
+
+
+</RelativeLayout>

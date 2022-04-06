@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LearnXML</string>
+    <string name="label_text1">Text 1</string>
+    <string name="label_text2">Text 2</string>
+    <string name="label_1">Nama</string>
+    <string name="checkbox">Saya setuju dengan berbagai ketentuan yang ada</string>
+</resources>

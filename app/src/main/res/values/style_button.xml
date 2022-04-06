@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ButtonDefault" parent="Widget.MaterialComponents.Button">
+        <item name="height">20dp</item>
+        <item name="android:textAppearance">@style/Subtitle</item>
+        <item name="cornerRadius">25dp</item>
+        <item name="iconSize">15dp</item>
+    </style>
+
+    <style name="ButtonDefault.Primary">
+        <item name="backgroundTint">@color/design_default_color_on_primary</item>
+        <item name="android:textColor">@color/design_default_color_secondary</item>
+        <item name="iconTint">@color/black</item>
+    </style>
+
+    <style name="SubmitButton">
+        <item name="backgroundTint">@color/buttonBackground</item>
+        <item name="cornerRadius">20dp</item>
+        <item name="android:layout_marginTop">40dp</item>
+    </style>
+    
+    <style name="RadioButton">
+        <item name="buttonTint">@drawable/radio_button</item>
+    </style>
+
+    <style name="ChecklistButton">
+        <item name="buttonTint">@drawable/radio_button</item>
+    </style>
+
+</resources>

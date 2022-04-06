@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="InputLayout" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="boxStrokeColor">@color/secondary</item>
+        <item name="boxStrokeErrorColor">@color/primary</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxStrokeWidthFocused">1dp</item>
+    </style>
+    
+    <style name="InputText" parent="Widget.AppCompat.EditText">
+        <item name="android:textAppearance">@style/Subtitle</item>
+        <item name="hintTextAppearance">@style/Subtitle</item>
+    </style>
+</resources>
